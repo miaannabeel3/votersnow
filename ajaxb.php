@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 $user      = $_REQUEST['id'];
 $post_data = array(
     'supporterUserId' => $user,
-    'supporteeUserId' => 'e508d579-5042-42b6-b86a-255a0399b1c4',
+    'supporteeUserId' => 'a7c88fa3-3f19-4655-9de2-53adfa97540c',
 );
 sleep(5);
 addVote($post_data);
